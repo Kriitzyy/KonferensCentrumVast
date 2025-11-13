@@ -1,0 +1,15 @@
+meta {
+  name: UrlTest
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://localhost:7071/api/MyHttpTrigger
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}
